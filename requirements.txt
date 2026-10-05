@@ -1,0 +1,9 @@
+# Verified with Python 3.12.3 on macOS.
+# Other operating systems were not executed during release preparation.
+tensorflow==2.21.0
+keras==3.13.2
+numpy==2.4.2
+pandas==3.0.0
+scikit-learn==1.8.0
+matplotlib==3.10.8
+joblib==1.5.2

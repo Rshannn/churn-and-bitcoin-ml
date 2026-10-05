@@ -1,0 +1,36 @@
+[
+  {
+    "name": "gradient_boosting",
+    "type": "sklearn",
+    "auc": 0.845463587279444,
+    "accuracy": 0.8055358410220014
+  },
+  {
+    "name": "logistic_regression",
+    "type": "sklearn",
+    "auc": 0.8412978893797307,
+    "accuracy": 0.7381121362668559
+  },
+  {
+    "name": "random_forest",
+    "type": "sklearn",
+    "auc": 0.8375313234648273,
+    "accuracy": 0.7743080198722498
+  },
+  {
+    "name": "sgd_log_loss",
+    "type": "sklearn",
+    "auc": 0.835836627140975,
+    "accuracy": 0.7757274662881476
+  },
+  {
+    "name": "keras_mlp",
+    "type": "keras",
+    "auc": 0.8319408922989486,
+    "accuracy": 0.7863733144073811,
+    "grad_abs_mean": 0.0013434231514111161,
+    "grad_abs_max": 0.049333956092596054,
+    "grad_std": 0.0022632295731455088,
+    "gradient_interpretation": "Gradients appear stable: mean |gradient| changed from 0.002552 to 0.001343, with peak max |gradient| 0.053300. Training loss decreased by 0.2314."
+  }
+]

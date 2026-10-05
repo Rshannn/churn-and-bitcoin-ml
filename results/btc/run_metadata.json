@@ -1,0 +1,23 @@
+{
+  "seed": 42,
+  "lookback_observations": 30,
+  "epochs_requested": 50,
+  "epochs_run": 50,
+  "input_rows": 1650,
+  "dropped_rows": 0,
+  "data_start": "2019-03-08",
+  "data_end": "2023-11-22",
+  "non_daily_intervals": 7,
+  "train_start": "2019-03-08",
+  "train_end": "2022-12-31",
+  "test_input_start": "2023-01-01",
+  "test_input_end": "2023-11-22",
+  "prediction_start": "2023-01-31",
+  "prediction_end": "2023-11-22",
+  "train_samples": 1294,
+  "test_samples": 296,
+  "lstm_rmse": 1199.930766022868,
+  "lstm_mae": 853.9420713682433,
+  "baseline_rmse": 668.3206041507567,
+  "baseline_mae": 440.3594594594595
+}

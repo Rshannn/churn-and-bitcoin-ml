@@ -1,0 +1,6 @@
+name,type,auc,accuracy,grad_abs_mean,grad_abs_max,grad_std,gradient_interpretation
+gradient_boosting,sklearn,0.845463587279444,0.8055358410220014,,,,
+logistic_regression,sklearn,0.8412978893797307,0.7381121362668559,,,,
+random_forest,sklearn,0.8375313234648273,0.7743080198722498,,,,
+sgd_log_loss,sklearn,0.835836627140975,0.7757274662881476,,,,
+keras_mlp,keras,0.8319408922989486,0.7863733144073811,0.0013434231514111161,0.049333956092596054,0.0022632295731455088,"Gradients appear stable: mean |gradient| changed from 0.002552 to 0.001343, with peak max |gradient| 0.053300. Training loss decreased by 0.2314."

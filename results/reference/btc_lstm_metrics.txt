@@ -1,0 +1,7 @@
+Bitcoin LSTM Forecasting Results
+--------------------------------
+Lookback window: 30 days
+Training period: 2019-01-01 to 2022-12-31
+Testing period: 2023-01-01 to 2025-12-31
+Test RMSE: 1262.30
+Test MAE: 859.31
